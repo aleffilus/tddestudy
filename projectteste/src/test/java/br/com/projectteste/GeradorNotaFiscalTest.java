@@ -6,6 +6,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
+import java.util.Arrays;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -15,10 +18,17 @@ public class GeradorNotaFiscalTest {
 
     private GeradorDeNotaFiscal geradorNotaFiscal;
     private float delta;
+    private List<AcaoAposGeraNota> acoes;
+    private AcaoAposGeraNota acaoAposGeraNota1;
+    private AcaoAposGeraNota acaoAposGeraNota2;
 
     @BeforeEach
     public void inicializa () {
         delta = 0.00001f;
+        acaoAposGeraNota1 = Mockito.mock(AcaoAposGeraNota.class);
+        acaoAposGeraNota2 = Mockito.mock(AcaoAposGeraNota.class);
+        acoes = Arrays.asList(acaoAposGeraNota1, acaoAposGeraNota2);
+        geradorNotaFiscal = new GeradorDeNotaFiscal(acoes);
     }
 
     @Test
@@ -46,4 +56,13 @@ public class GeradorNotaFiscalTest {
         Mockito.verify(notaFiscalDAO).persiste(notaFiscal);
     }
 
+    @Test
+    public void deveInvocarAcoesPosteriores () {
+        Pedido pedido = new Pedido("Alessandro", 1000, 1);
+
+        NotaFiscal notaFiscal = geradorNotaFiscal.gerar(pedido);
+
+        Mockito.verify(acaoAposGeraNota1).executa(notaFiscal);
+        Mockito.verify(acaoAposGeraNota2).executa(notaFiscal);
+    }
 }
