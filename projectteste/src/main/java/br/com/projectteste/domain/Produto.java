@@ -43,7 +43,7 @@ public class Produto {
     @Override
     public int hashCode() {
         int result = nome.hashCode();
-        result = 31 * result + (valor != +0.0f ? Float.floatToIntBits(valor) : 0);
+        result = 31 * result + (valor > 0.0f ? Float.floatToIntBits(valor) : 0);
         return result;
     }
 }

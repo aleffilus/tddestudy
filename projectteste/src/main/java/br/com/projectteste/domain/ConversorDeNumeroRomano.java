@@ -8,15 +8,17 @@ import java.util.Map;
  */
 public class ConversorDeNumeroRomano {
 
-    private static Map<String, Integer> tabela = new HashMap<String, Integer>(){{
-        put("I", 1);
-        put("V", 5);
-        put("X", 10);
-        put("L", 50);
-        put("C", 100);
-        put("D", 500);
-        put("M", 1000);
-    }};
+    private static Map<String, Integer> tabela = new HashMap<String, Integer>();
+
+    public ConversorDeNumeroRomano () {
+        tabela.put("I", 1);
+        tabela.put("V", 5);
+        tabela.put("X", 10);
+        tabela.put("L", 50);
+        tabela.put("C", 100);
+        tabela.put("D", 500);
+        tabela.put("M", 1000);
+    }
 
     public int converte (String numeroEmRomano) {
         int acumulador = 0;

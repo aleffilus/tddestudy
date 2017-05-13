@@ -2,59 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb1c5c89-601c-4ddb-984d-6209ceb998ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/dao/NotaFiscalDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/CalculadoraDeSalario.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/Cargo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/CarrinhoCompras.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/CarrinhoComprasBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/CarrinhoDeCompras.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/ConversorDeNumeroRomano$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/ConversorDeNumeroRomano.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/DezOuVindePorCento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/Funcionario.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/GeradorDeNotaFiscal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/MaiorEMenor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/MaiorPreco.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/NotaFiscal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/Pedido.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/Produto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/QuizaOuVinteCincoPorCento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/RegraDeCalculo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/br/com/projectteste/domain/SAP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/test/br/com/projectteste/CalculadoraDeSalarioTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/test/br/com/projectteste/ConversorDeNumeroRomanoTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/test/br/com/projectteste/GeradorNotaFiscalTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/test/br/com/projectteste/MaiorPrecoTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projectteste/test/br/com/projectteste/TestaMaiorEMenor.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/dao/NotaFiscalDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/dao/NotaFiscalDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/CalculadoraDeSalario.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/CalculadoraDeSalario.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/Cargo.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Cargo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoCompras.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/CarrinhoCompras.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoComprasBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/CarrinhoComprasBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoDeCompras.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/CarrinhoDeCompras.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/ConversorDeNumeroRomano.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/ConversorDeNumeroRomano.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/DezOuVindePorCento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/DezOuVindePorCento.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/Funcionario.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Funcionario.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/GeradorDeNotaFiscal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/GeradorDeNotaFiscal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/Item.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Item.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorEMenor.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/MaiorEMenor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorPreco.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/MaiorPreco.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/NotaFiscal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/NotaFiscal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/Pedido.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Pedido.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/Produto.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Produto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/QuizaOuVinteCincoPorCento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/QuizaOuVinteCincoPorCento.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/RegraDeCalculo.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/RegraDeCalculo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/projectteste/domain/SAP.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/SAP.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/br/com/projectteste/CalculadoraDeSalarioTest.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/projectteste/CalculadoraDeSalarioTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/br/com/projectteste/ConversorDeNumeroRomanoTest.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/projectteste/ConversorDeNumeroRomanoTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/br/com/projectteste/GeradorNotaFiscalTest.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/projectteste/GeradorNotaFiscalTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/br/com/projectteste/MaiorPrecoTest.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/projectteste/MaiorPrecoTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/br/com/projectteste/TestaMaiorEMenor.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/projectteste/TestaMaiorEMenor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectteste.iml" afterPath="$PROJECT_DIR$/projectteste.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/projectteste/dao/NotaFiscalDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/dao/NotaFiscalDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/ConversorDeNumeroRomano.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/ConversorDeNumeroRomano.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Produto.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Produto.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,27 +18,127 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
+      <file leaf-file-name="ConversorDeNumeroRomano.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/ConversorDeNumeroRomano.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+              <folding>
+                <element signature="e#234#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotaFiscalDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/dao/NotaFiscalDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#274#286#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GeradorDeNotaFiscal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/GeradorDeNotaFiscal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeradorNotaFiscalTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/GeradorNotaFiscalTest.java">
+      <file leaf-file-name="CopiadoraTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/CopiadoraTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="45" />
+            <state relative-caret-position="471">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Leitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Escritor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Escritor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Copiadora.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Copiadora.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EscritorPelaSerial.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/EscritorPelaSerial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeitorDeXML.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/LeitorDeXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <folding>
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Produto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Produto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,8 +149,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -158,15 +209,25 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/projectteste/ConversorDeNumeroRomanoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/projectteste/MaiorPrecoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/projectteste/TestaMaiorEMenor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/projectteste/GeradorNotaFiscalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/GeradorDeNotaFiscal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/projectteste/GeradorNotaFiscalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/ConversorDeNumeroRomano.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Produto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Copiadora.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/projectteste/CopiadoraTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Leitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Escritor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/LeitorDeXML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/EscritorPelaSerial.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/projectteste/dao/NotaFiscalDAO.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1932" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -185,7 +246,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,9 +357,19 @@
               <option name="myItemId" value="projectteste" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="projectteste" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectteste" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -312,7 +382,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../contabilizei/nfe/contabilizei-nfe" />
+    <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="All project files" />
+    <property name="SONARLINT_ANALYSIS_RESULTS_SPLIT_PROPORTION" value="0.75164837" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -340,33 +412,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada (1)">
-    <configuration default="false" name="MaiorPrecoTest.deveRetornarMarioValorSeCarrinhoContemMuitosElementos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.br.com.projectteste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="projectteste" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.br.com.projectteste" />
-      <option name="MAIN_CLASS_NAME" value="test.br.com.projectteste.MaiorPrecoTest" />
-      <option name="METHOD_NAME" value="deveRetornarMarioValorSeCarrinhoContemMuitosElementos" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CopiadoraTest.deveLerEEnviarOCOnteudoLido">
     <configuration default="false" name="CalculadoraDeSalarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -471,6 +517,32 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="CopiadoraTest.deveLerEEnviarOCOnteudoLido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.projectteste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="projectteste" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.projectteste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.projectteste.CopiadoraTest" />
+      <option name="METHOD_NAME" value="deveLerEEnviarOCOnteudoLido" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -554,6 +626,26 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -676,19 +768,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MaiorPrecoTest.deveRetornarMarioValorSeCarrinhoContemMuitosElementos" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculadoraDeSalarioTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculadoraDeSalarioTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CopiadoraTest.deveLerEEnviarOCOnteudoLido" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculadoraDeSalarioTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MaiorPrecoTest.deveRetornarMarioValorSeCarrinhoContemMuitosElementos" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CopiadoraTest.deveLerEEnviarOCOnteudoLido" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest.devePersistirNotaFiscalGerada" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GeradorNotaFiscalTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculadoraDeSalarioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -709,8 +801,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeradorNotaFiscalTest - 2017.05.10 at 23h 33m 27s.xml">
-      <configuration name="GeradorNotaFiscalTest" configurationId="JUnit" />
+    <history-entry file="CopiadoraTest_deveLerEEnviarOCOnteudoLido - 2017.05.13 at 15h 07m 19s.xml">
+      <configuration name="CopiadoraTest.deveLerEEnviarOCOnteudoLido" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GeradorNotaFiscalTest_devePersistirNotaFiscalGerada - 2017.05.10 at 23h 51m 05s.xml">
       <configuration name="GeradorNotaFiscalTest.devePersistirNotaFiscalGerada" configurationId="JUnit" />
@@ -741,7 +833,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -753,25 +845,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34364262" sideWeight="0.5044444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34364262" sideWeight="0.49555555" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.49555555" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36240092" sideWeight="0.49555555" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33522084" sideWeight="0.49555555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5044444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22252156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54246885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39511654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39511654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -844,253 +937,88 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoDeCompras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/MaiorPrecoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/RegraDeCalculo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/DezOuVindePorCento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/QuizaOuVinteCincoPorCento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Cargo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CalculadoraDeSalario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoComprasBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorPreco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorPreco.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/CalculadoraDeSalarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/TestaMaiorEMenorTestaMaiorEMenor.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorEMenor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorEMenor.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Produto.java" />
     <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/TestaMaiorEMenor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/projectteste/domain/CarrinhoDeCompras.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/projectteste/domain/MaiorEMenor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/projectteste/domain/ConversorDeNumeroRomano.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/projectteste/domain/Produto.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/projectteste/TestaMaiorEMenor.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorEMenor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/ConversorDeNumeroRomano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoCompras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorPreco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoDeCompras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoComprasBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorEMenor.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Produto.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Funcionario.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/ConversorDeNumeroRomano.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Item.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoCompras.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/MaiorPreco.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoDeCompras.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CarrinhoComprasBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Cargo.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/DezOuVindePorCento.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/QuizaOuVinteCincoPorCento.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CalculadoraDeSalario.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Pedido.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/NotaFiscal.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/SAP.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/dao/NotaFiscalDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/RegraDeCalculo.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/GeradorDeNotaFiscal.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/CarrinhoDeCompras.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="19" />
-          <folding />
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Cargo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/CalculadoraDeSalarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/DezOuVindePorCento.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/ConversorDeNumeroRomanoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/QuizaOuVinteCincoPorCento.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/MaiorPrecoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/CalculadoraDeSalario.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/TestaMaiorEMenor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/Pedido.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/CarrinhoComprasBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/NotaFiscal.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/GeradorNotaFiscalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/SAP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/dao/NotaFiscalDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/RegraDeCalculo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="294">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1102,93 +1030,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/projectteste/domain/GeradorDeNotaFiscal.java">
+    <entry file="file://$PROJECT_DIR$/projectteste.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/CarrinhoDeCompras.java">
+    <entry file="jar://C:/Java/jdk1.8.0_91/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/dom/NotationImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#0#2577#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/CalculadoraDeSalarioTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/NotaFiscal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/ConversorDeNumeroRomanoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/ConversorDeNumeroRomano.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/MaiorPrecoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        <state relative-caret-position="113">
+          <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#234#251#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/TestaMaiorEMenor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/CarrinhoComprasBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/dao/NotaFiscalDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/GeradorDeNotaFiscal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/GeradorNotaFiscalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Copiadora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="45" />
+        <state relative-caret-position="231">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/projectteste/CopiadoraTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Leitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/Escritor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/LeitorDeXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/domain/EscritorPelaSerial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/projectteste/dao/NotaFiscalDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#286#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
           </folding>
         </state>
       </provider>
