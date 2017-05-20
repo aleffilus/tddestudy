@@ -1,6 +1,7 @@
 package br.com.projectteste.domain;
 
 import br.com.projectteste.dao.NotaFiscalDAO;
+import com.sun.org.apache.regexp.internal.RE;
 
 import java.util.Calendar;
 import java.util.List;
@@ -11,16 +12,29 @@ import java.util.List;
 public class GeradorDeNotaFiscal {
 
     private List<AcaoAposGeraNota> acoes = null;
+    private Relogio relogio = null;
+    private Tabela tabela = null;
 
     public GeradorDeNotaFiscal (List<AcaoAposGeraNota> acoes) {
+        this(acoes, new RelogioDoSistema());
+    }
+
+    public GeradorDeNotaFiscal (List<AcaoAposGeraNota> acoes, Relogio relogio) {
         this.acoes = acoes;
+        this.relogio = relogio;
+    }
+
+    public GeradorDeNotaFiscal (List<AcaoAposGeraNota> acoes, Relogio relogio, Tabela tabela) {
+        this.acoes = acoes;
+        this.relogio = relogio;
+        this.tabela = tabela;
     }
 
     public GeradorDeNotaFiscal(NotaFiscalDAO notaFiscalDAO, SAP sap) {
     }
 
     public NotaFiscal gerar (Pedido pedido) {
-        NotaFiscal notaFiscal = new NotaFiscal(pedido.getCliente(),pedido.getValorTotal() * 0.94, Calendar.getInstance());
+        NotaFiscal notaFiscal = new NotaFiscal(pedido.getCliente(),pedido.getValorTotal() * tabela.paraValor(pedido.getValorTotal()), relogio.hoje());
 
         if (null != acoes) {
             for (AcaoAposGeraNota acaoAposGeraNota : acoes) {

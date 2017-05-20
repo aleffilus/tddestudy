@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -21,6 +22,7 @@ public class GeradorNotaFiscalTest {
     private List<AcaoAposGeraNota> acoes;
     private AcaoAposGeraNota acaoAposGeraNota1;
     private AcaoAposGeraNota acaoAposGeraNota2;
+    private Tabela tabela;
 
     @BeforeEach
     public void inicializa () {
@@ -28,7 +30,10 @@ public class GeradorNotaFiscalTest {
         acaoAposGeraNota1 = Mockito.mock(AcaoAposGeraNota.class);
         acaoAposGeraNota2 = Mockito.mock(AcaoAposGeraNota.class);
         acoes = Arrays.asList(acaoAposGeraNota1, acaoAposGeraNota2);
-        geradorNotaFiscal = new GeradorDeNotaFiscal(acoes);
+        // Mockando uma tabela, que ainda nem existe
+        tabela = Mockito.mock(Tabela.class);
+
+        geradorNotaFiscal = new GeradorDeNotaFiscal(acoes, new RelogioDoSistema(), tabela);
     }
 
     @Test
@@ -64,5 +69,21 @@ public class GeradorNotaFiscalTest {
 
         Mockito.verify(acaoAposGeraNota1).executa(notaFiscal);
         Mockito.verify(acaoAposGeraNota2).executa(notaFiscal);
+    }
+
+    @Test
+    public void deveConsultarATabelaParaCalcularValor () {
+        // Definindo o futuro comportamento "paraVaalor"
+        // que deve retornar 0.2 caso o valor seja 1000.0
+        Mockito.when(tabela.paraValor(1000.0)).thenReturn(0.2);
+
+        List<AcaoAposGeraNota> nenhumaAcao = Collections.emptyList();
+        Pedido pedido = new Pedido("Alessandro", 1000, 1);
+
+        NotaFiscal notaFiscal = geradorNotaFiscal.gerar(pedido);
+
+        // Garantindo que a tabela foi consultada
+        Mockito.verify(tabela).paraValor(1000.0);
+        assertEquals(1000 * 0.2, notaFiscal.getValor(), delta);
     }
 }
