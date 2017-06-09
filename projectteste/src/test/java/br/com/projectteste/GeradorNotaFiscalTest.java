@@ -2,6 +2,8 @@ package br.com.projectteste;
 
 import br.com.projectteste.dao.NotaFiscalDAO;
 import br.com.projectteste.domain.*;
+import br.com.projectteste.interfaces.AcaoAposGeraNota;
+import br.com.projectteste.interfaces.Tabela;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

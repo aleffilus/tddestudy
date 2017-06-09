@@ -1,9 +1,10 @@
 package br.com.projectteste.domain;
 
 import br.com.projectteste.dao.NotaFiscalDAO;
-import com.sun.org.apache.regexp.internal.RE;
+import br.com.projectteste.interfaces.AcaoAposGeraNota;
+import br.com.projectteste.interfaces.Relogio;
+import br.com.projectteste.interfaces.Tabela;
 
-import java.util.Calendar;
 import java.util.List;
 
 /**

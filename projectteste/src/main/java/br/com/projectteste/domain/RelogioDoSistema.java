@@ -1,5 +1,7 @@
 package br.com.projectteste.domain;
 
+import br.com.projectteste.interfaces.Relogio;
+
 import java.util.Calendar;
 
 /**

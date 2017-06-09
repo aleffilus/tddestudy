@@ -1,4 +1,4 @@
-package br.com.projectteste.domain;
+package br.com.projectteste.interfaces;
 
 /**
  * @author Alessandro Oliveira

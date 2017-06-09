@@ -1,4 +1,6 @@
-package br.com.projectteste.domain;
+package br.com.projectteste.interfaces;
+
+import br.com.projectteste.domain.NotaFiscal;
 
 /**
  * @author Alessandro Oliveira
